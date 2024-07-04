@@ -1,0 +1,4065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="font">
+       <font>
+        <family>Palatino Linotype</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:qlineargradient(spread:pad, x1:0.065, y1:0.113, x2:1, y2:1, stop:0 rgba(51, 143, 194, 255), stop:1 rgba(143, 190, 220, 255));</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="currentIndex">
+       <number>16</number>
+      </property>
+      <widget class="QWidget" name="Ajouter_etudiant">
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>220</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string>Section:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>160</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string>Mail:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>190</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string>Télephone:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>40</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string>Nom:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>70</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string>Prenom:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>100</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Date de naissance:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>130</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string>Adresse:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>10</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>20</y>
+          <width>231</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Normal</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="mail">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>160</y>
+          <width>231</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="adresse">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>130</y>
+          <width>231</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="date">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>100</y>
+          <width>231</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="prenom">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>70</y>
+          <width>231</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;
+background-color: rgb(182, 209, 226);
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="nom">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>40</y>
+          <width>231</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="phone">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>190</y>
+          <width>231</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>250</y>
+          <width>201</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Niveau d'etude</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ajouter">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>360</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="section">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>220</y>
+          <width>231</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;
+</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>informatique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>mathématique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>prépa intégré</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>tic</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="niveau">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>250</y>
+          <width>231</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;
+</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>licence l1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>licence l2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>licence l3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>master </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cycle ingénieur</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="supp_inscri">
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>70</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+color: rgb(0, 0, 0);
+font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri1">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>70</y>
+          <width>301</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supp_etudi">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>230</y>
+          <width>201</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>supprimer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="supp_section">
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>60</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Section:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supp_section_2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>230</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string>supprimer</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="section1">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>60</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>informatique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>maths</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>prepa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>tic</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="supp_niveau">
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>191</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;
+</string>
+        </property>
+        <property name="text">
+         <string>Niveau:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supp_niveau_2">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>210</y>
+          <width>191</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>supprimer</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="niveau1">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>80</y>
+          <width>231</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;
+</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>licencel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>licencel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>master</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cycle ingénieur</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="enregistrement">
+       <widget class="QPushButton" name="enregistre_etud">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>50</y>
+          <width>231</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255,255, 255);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>enregistrement_etudiants</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="enregistre_livre">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>140</y>
+          <width>231</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>enregistrement_livres</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="enregistre_emprunt">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>240</y>
+          <width>231</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>enregistrement_emprunts</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="rcupration">
+       <widget class="QPushButton" name="recupration1">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>50</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>recpration etudiants</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="rcupration2">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>130</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>récupération livres</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="recuperation3">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>230</y>
+          <width>251</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>récupération emprunts</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="modifier_phone">
+       <widget class="QLineEdit" name="phone1">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>130</y>
+          <width>291</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modi_phone">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>240</y>
+          <width>211</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>130</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Téléphone:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>40</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscription_1">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>40</y>
+          <width>291</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="affiche_contenu_2">
+       <widget class="QPushButton" name="affiche_contenu">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>447</y>
+          <width>231</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>affiche</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res11">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>751</width>
+          <height>381</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 8pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="modifier_mail">
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>160</y>
+          <width>221</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Mail:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modi_mail">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>260</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="mail1">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>140</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>221</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscription_2">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>50</y>
+          <width>281</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="recherche_numero">
+       <widget class="QLineEdit" name="inscri_recherche">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>70</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>70</y>
+          <width>201</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>inscription</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="recherche_inscri">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>210</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>recherche</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res20">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>300</y>
+          <width>761</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);
+
+font: 75 10pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="recherche_section">
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>60</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>section</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res21">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>350</y>
+          <width>751</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);
+
+font: 75 8pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="recherche_sec">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>210</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>recherhce</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="section_recherhce">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>60</y>
+          <width>261</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>informatique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>maths</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>prépa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>tic</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="recherche_niveau">
+       <widget class="QPushButton" name="recherche_niveau_2">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>170</y>
+          <width>201</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>recherhce</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>50</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>niveau</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res22">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>280</y>
+          <width>771</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);
+font: 75 8pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="niveau_recherhce">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>50</y>
+          <width>241</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>licencel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>licencel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>master</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cycle ingénieur</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="recherche_niveau_section">
+       <widget class="QLabel" name="label_22">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>80</y>
+          <width>251</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>niveau</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res23">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>330</y>
+          <width>751</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>160</y>
+          <width>251</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>section</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="recherchesection_niveau">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>260</y>
+          <width>171</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>rechercher</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="niveau_recher">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>80</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>licencel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>licencel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>master</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cycle ingénieur</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="section_recher">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>150</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>informatique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>mathématique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>prepa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>tic</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ajoute_livre">
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>20</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Réference:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ref1">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>20</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ajouter_livre">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>380</y>
+          <width>241</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>ajouter</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_25">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>120</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Nom auteur:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_26">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>170</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Prénom auteur:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_27">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>220</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Année d'édition:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>70</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Titre:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="titre1">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>70</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="nom_auteur1">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>120</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="annee1">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>220</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="prenom_auteur1">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>170</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>270</y>
+          <width>201</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Nombre d'exemplaire:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="nombre1">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>270</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(182, 209, 226);
+background-color: rgb(182, 209, 226);
+font: 75 12pt &quot;Palatino Linotype&quot;;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page"/>
+      <widget class="QWidget" name="suppression_reference">
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>55</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Reférence:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ref_suppression">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>60</y>
+          <width>281</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="suppremier_ref">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>180</y>
+          <width>221</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>supprimer </string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="supp_auter">
+       <widget class="QPushButton" name="supprimer_auteur">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>230</y>
+          <width>161</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>supprimer</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>50</y>
+          <width>181</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Auteur:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="nom_auteur_2">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>50</y>
+          <width>291</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="suppression_annee">
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>80</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>année_édition:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="annee">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>70</y>
+          <width>301</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supp_annee">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>200</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>supprimer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="modifier_exemplaire">
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>201</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>nombre d'exemplaire</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="exemplaire">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>140</y>
+          <width>311</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modi_exmplaire">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>240</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>ref:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ref2">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>60</y>
+          <width>311</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="contenu_livre">
+       <widget class="QLabel" name="res_contenu_livres">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>60</y>
+          <width>601</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 0, 0);
+border-radius:20px;
+font: 10pt &quot;Palatino Linotype&quot;;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="affiche_contenu_livres">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>410</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>afficher</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="modifier_adresse">
+       <widget class="QLineEdit" name="adresse1">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>150</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modi_adresse">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>230</y>
+          <width>161</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>70</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri10">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>70</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_47">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>140</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Adresse:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ref_affiche">
+       <widget class="QLabel" name="res_ref">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>140</y>
+          <width>681</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 0, 0);
+border-radius:20px;
+font: 10pt &quot;Palatino Linotype&quot;;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="affiche_reff">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>440</y>
+          <width>191</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Afficher</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>40</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Référence:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ref_affiche_2">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>40</y>
+          <width>311</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="titre_affiche">
+       <widget class="QPushButton" name="affiche_titre">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>460</y>
+          <width>161</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>affiche</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res_titre">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>130</y>
+          <width>681</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 0, 0);
+border-radius:20px;
+font: 10pt &quot;Palatino Linotype&quot;;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="titre3">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>20</y>
+          <width>251</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>241</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Titre:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="anne_affiche">
+       <widget class="QLabel" name="affiche_anne">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>681</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 0, 0);
+border-radius:20px;
+font: 10pt &quot;Palatino Linotype&quot;;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="aff_anne">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>430</y>
+          <width>171</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string> afficher</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="annee_2">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>30</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>251</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Annéé_édition:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="affiche_auteur">
+       <widget class="QPushButton" name="affiche_atteur">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>460</y>
+          <width>171</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Afficher</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="affich_auteur">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>140</y>
+          <width>711</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 0, 0);
+border-radius:20px;
+font: 10pt &quot;Palatino Linotype&quot;;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="auteur4">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>40</y>
+          <width>311</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_42">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>311</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Auteur:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="alpha_affiche">
+       <widget class="QLabel" name="res_alphabitique">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>30</y>
+          <width>681</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(0, 0, 0);
+border-radius:20px;
+font: 10pt &quot;Palatino Linotype&quot;;
+background-color: rgb(200, 217, 237);
+background-color: rgb(197, 225, 236);
+background-color: rgb(182, 209, 226);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="affiche_alpha">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>447</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Afficher</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="modifier_date">
+       <widget class="QLabel" name="label_43">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>50</y>
+          <width>261</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_44">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>130</y>
+          <width>261</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Nouvelle date:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri_modi">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>50</y>
+          <width>271</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="date2">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>120</y>
+          <width>271</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modifier_date_2">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>260</y>
+          <width>231</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLabel" name="label_59">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>-10</y>
+          <width>821</width>
+          <height>551</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::PlainText</enum>
+        </property>
+        <property name="pixmap">
+         <pixmap>Logo_Bibliothèque_pour_Tous.svg.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="supp_niveau_section">
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>40</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Section:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supp_section_niveau">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>260</y>
+          <width>201</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_51">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>110</y>
+          <width>181</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Niveau:</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="section2">
+        <property name="geometry">
+         <rect>
+          <x>422</x>
+          <y>41</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>informatique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>mathématique</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>tic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>prépa</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="niveau2">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>120</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:5px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>licencel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>licencel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>master</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cycle ingénieur</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ajout_emprunt_3">
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>271</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>110</y>
+          <width>271</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Référence :</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri_emprunt">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>50</y>
+          <width>301</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ref_emprunt">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>110</y>
+          <width>301</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ajout_emprunt_2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>270</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>ajouter</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="retour_emprente">
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>80</y>
+          <width>231</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri_retour">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>80</y>
+          <width>301</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="retour">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>200</y>
+          <width>251</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>retour</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="modi_retor">
+       <widget class="QLabel" name="label_45">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>40</y>
+          <width>221</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_46">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>130</y>
+          <width>221</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Nouvelle date de retour:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri5">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>40</y>
+          <width>261</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="date8">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>120</y>
+          <width>261</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="modi_retour">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>260</y>
+          <width>231</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>modifier</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="affiche_em_etudiant">
+       <widget class="QLabel" name="res100">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>120</y>
+          <width>641</width>
+          <height>321</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_49">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>20</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'incription:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri_em">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>20</y>
+          <width>231</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="affich">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>460</y>
+          <width>191</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>afficher</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="date_retour">
+       <widget class="QLabel" name="res101">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>90</y>
+          <width>671</width>
+          <height>351</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_53">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>251</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Date de retour:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="date_ret">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>20</y>
+          <width>291</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="ret">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>460</y>
+          <width>181</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>afficher</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="date_em">
+       <widget class="QLineEdit" name="date100">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>40</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_48">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>231</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Date d'emprunt:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_50">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>140</y>
+          <width>661</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="afficher_em">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>460</y>
+          <width>141</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>afficher</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="affiche_entre2_em">
+       <widget class="QPushButton" name="aff4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>460</y>
+          <width>131</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>afficher</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_52">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>10</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Début date d'emprunt:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_54">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>80</y>
+          <width>211</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Fin date d'emprunt:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res2et2">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>150</y>
+          <width>581</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="debut_em">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>10</y>
+          <width>231</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="fin_em">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>80</y>
+          <width>231</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="affiche_entre2_ret">
+       <widget class="QLineEdit" name="ret1">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>40</y>
+          <width>261</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ret2">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>100</y>
+          <width>261</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_55">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>40</y>
+          <width>241</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Début date de retour :</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_56">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>110</y>
+          <width>241</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Fin date de retour:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="res_ret">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>190</y>
+          <width>591</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="affiche_ret">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>460</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>afficher</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="supp_em">
+       <widget class="QLabel" name="label_57">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>30</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Numéro d'inscription:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_58">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>90</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Référence:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="inscri_2">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>20</y>
+          <width>321</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ref_liv">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>81</y>
+          <width>321</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="supprime_em">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>220</y>
+          <width>211</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(197, 225, 236);
+color: rgb(0, 0, 0);
+background-color: rgb(223, 230, 236);</string>
+        </property>
+        <property name="text">
+         <string>supprimer</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="affiche_em">
+       <widget class="QPushButton" name="affiche_livre">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>440</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>affiche</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ref4">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>50</y>
+          <width>241</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="affiche">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>721</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>50</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string>Référence:</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="contenu_emprunt">
+       <widget class="QLabel" name="res_contenu_emprunt">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>40</y>
+          <width>661</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(182, 209, 226);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="affiche_emprunt">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>410</y>
+          <width>221</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+font: 75 12pt &quot;Palatino Linotype&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>afficher</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menubienvnu">
+    <property name="title">
+     <string>bienvnu</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menugestion_des_etudiants">
+    <property name="title">
+     <string>gestion des etudiants</string>
+    </property>
+    <widget class="QMenu" name="menuMise_a_jour_des_tudiants">
+     <property name="title">
+      <string>Mise a jour des étudiants</string>
+     </property>
+     <widget class="QMenu" name="menusupprimer_etudiant">
+      <property name="title">
+       <string>supprimer_etudiant</string>
+      </property>
+      <addaction name="actionSuppression_un_tudiants_donn_e"/>
+      <addaction name="actionSuppression_des_etudiants_d_une_section_donn_e"/>
+      <addaction name="actionSuppression_des_etudiants_d_un_niveau_donn_e"/>
+      <addaction name="actionSuppression_des_etudiants_d_une_section_et_un_niveau_donn_e"/>
+     </widget>
+     <widget class="QMenu" name="menuModifier_etudiant">
+      <property name="title">
+       <string>Modifier_etudiant</string>
+      </property>
+      <addaction name="actionmodifier_t_l_phone"/>
+      <addaction name="actionmail"/>
+      <addaction name="separator"/>
+      <addaction name="actionAdresse"/>
+     </widget>
+     <addaction name="actionajouter_etudiants"/>
+     <addaction name="menusupprimer_etudiant"/>
+     <addaction name="menuModifier_etudiant"/>
+    </widget>
+    <widget class="QMenu" name="menuRecherche_et_affichage">
+     <property name="title">
+      <string>Recherche et affichage</string>
+     </property>
+     <addaction name="actioncontenu_du_dictionnaire_tudaints"/>
+     <addaction name="actionrecherche_par_num_inscription"/>
+     <addaction name="actionrecherche_par_section"/>
+     <addaction name="actionrecherche_par_section_et_niveau"/>
+     <addaction name="actionrecherche_par_niveau"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menuMise_a_jour_des_tudiants"/>
+    <addaction name="menuRecherche_et_affichage"/>
+   </widget>
+   <widget class="QMenu" name="menugestion_des_livres">
+    <property name="title">
+     <string>gestion des livres</string>
+    </property>
+    <widget class="QMenu" name="menumise_a_jour">
+     <property name="title">
+      <string>mise a jour </string>
+     </property>
+     <widget class="QMenu" name="menusupprimer">
+      <property name="title">
+       <string>supprimer</string>
+      </property>
+      <addaction name="actionsuppression_livre_donn"/>
+      <addaction name="actionsuppression_livre_d_un_auteur_donn"/>
+      <addaction name="actionsuppression_livre_d_une_ann_e_donn_e"/>
+     </widget>
+     <addaction name="actionajouter_un_nouvel_livre"/>
+     <addaction name="menusupprimer"/>
+     <addaction name="actionmodifier_nombre_d_exemplaire_d_un_livre"/>
+    </widget>
+    <widget class="QMenu" name="menurecherche_affichage">
+     <property name="title">
+      <string>recherche ,affichage</string>
+     </property>
+     <addaction name="actioncontenu_de_dictionnaire_livre"/>
+     <addaction name="actionrecherche_par_r_ference"/>
+     <addaction name="actionrecherche_par_titre"/>
+     <addaction name="actionrecherhce_livre_par_ann_e_dition_donn_e"/>
+     <addaction name="actionrecherche_livre_d_un_auteur_donn"/>
+     <addaction name="actionrecherche_et_affichage_des_livres_par_ordre_alphab_tique"/>
+    </widget>
+    <addaction name="menumise_a_jour"/>
+    <addaction name="menurecherche_affichage"/>
+   </widget>
+   <widget class="QMenu" name="menugestion_des_rmprunts">
+    <property name="title">
+     <string>gestion des emprunts</string>
+    </property>
+    <widget class="QMenu" name="menuMise_a_jour">
+     <property name="title">
+      <string>Mise a jour</string>
+     </property>
+     <widget class="QMenu" name="menumodifier_emprunt">
+      <property name="title">
+       <string>modifier emprunt</string>
+      </property>
+      <addaction name="actiondate_emprunt"/>
+      <addaction name="actiondate_retour"/>
+     </widget>
+     <addaction name="actionajouter_un_nouvel_emprunt"/>
+     <addaction name="actionretour_d_un_emprunt"/>
+     <addaction name="actionsupprimer_d_un_emprunt"/>
+     <addaction name="menumodifier_emprunt"/>
+    </widget>
+    <widget class="QMenu" name="menurecherhce_affichage">
+     <property name="title">
+      <string>recherhce ,affichage</string>
+     </property>
+     <addaction name="actionconteenu_de_dictionnaire_emprunt"/>
+     <addaction name="actionrecherche_emprunts_par_livre"/>
+     <addaction name="actionrecherche_emprunts_par_etudiant"/>
+     <addaction name="actionrecherche_livre_emprent_s_a_une_date_donn_e"/>
+     <addaction name="actionrecherche_livre_retourn_s_a_une_date_donn_e"/>
+     <addaction name="actionrecherche_livre_emprent_s_a_entre_deux_date_donn_e"/>
+     <addaction name="actionrecherche_livre_retourn_s_entre_deux_dates_donn_es"/>
+    </widget>
+    <addaction name="menuMise_a_jour"/>
+    <addaction name="menurecherhce_affichage"/>
+   </widget>
+   <widget class="QMenu" name="menuenregistrement_et_recup_ration">
+    <property name="title">
+     <string>enregistrement et recupération</string>
+    </property>
+    <addaction name="actionenragistrement"/>
+    <addaction name="actionrecup_raytion"/>
+   </widget>
+   <addaction name="menubienvnu"/>
+   <addaction name="menugestion_des_etudiants"/>
+   <addaction name="menugestion_des_livres"/>
+   <addaction name="menugestion_des_rmprunts"/>
+   <addaction name="menuenregistrement_et_recup_ration"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionajouter_etudiants">
+   <property name="text">
+    <string>ajouter_etudiants</string>
+   </property>
+  </action>
+  <action name="actionSuppression_un_tudiants_donn_e">
+   <property name="text">
+    <string>Suppression_un_étudiants_donnée</string>
+   </property>
+  </action>
+  <action name="actionSuppression_des_etudiants_d_une_section_donn_e">
+   <property name="text">
+    <string>Suppression _es_etudiants_d'une_section_donnée</string>
+   </property>
+  </action>
+  <action name="actionSuppression_des_etudiants_d_un_niveau_donn_e">
+   <property name="text">
+    <string>Suppression_des_etudiants_d'un_niveau_donnée</string>
+   </property>
+  </action>
+  <action name="actionSuppression_des_etudiants_d_une_section_et_un_niveau_donn_e">
+   <property name="text">
+    <string>Suppression_des_etudiants_d'une_section_et_un_niveau_donnée</string>
+   </property>
+  </action>
+  <action name="actionmodifier_t_l_phone">
+   <property name="text">
+    <string>téléphone</string>
+   </property>
+  </action>
+  <action name="actionmail">
+   <property name="text">
+    <string>Mail</string>
+   </property>
+  </action>
+  <action name="actionAdresse">
+   <property name="text">
+    <string>Adresse</string>
+   </property>
+  </action>
+  <action name="actioncontenu_du_dictionnaire_tudaints">
+   <property name="text">
+    <string>contenu_du_dictionnaire_étudaints</string>
+   </property>
+  </action>
+  <action name="actionrecherche_par_num_inscription">
+   <property name="text">
+    <string>recherche_par_num_inscription</string>
+   </property>
+  </action>
+  <action name="actionrecherche_par_section">
+   <property name="text">
+    <string>recherche_par_section</string>
+   </property>
+  </action>
+  <action name="actionrecherche_par_section_et_niveau">
+   <property name="text">
+    <string>recherche_par_section_et_niveau</string>
+   </property>
+  </action>
+  <action name="actionrecherche_par_niveau">
+   <property name="text">
+    <string>recherche_par_niveau</string>
+   </property>
+  </action>
+  <action name="actionajouter_un_nouvel_livre">
+   <property name="text">
+    <string>ajouter un nouvel livre</string>
+   </property>
+  </action>
+  <action name="actionmodifier_nombre_d_exemplaire_d_un_livre">
+   <property name="text">
+    <string>modifier nombre d'exemplaire d'un livre</string>
+   </property>
+  </action>
+  <action name="actionsuppression_livre_donn">
+   <property name="text">
+    <string>suppression livre donné</string>
+   </property>
+  </action>
+  <action name="actionsuppression_livre_d_un_auteur_donn">
+   <property name="text">
+    <string>suppression livre d'un auteur donné</string>
+   </property>
+  </action>
+  <action name="actionsuppression_livre_d_une_ann_e_donn_e">
+   <property name="text">
+    <string>suppression livre d'une année donnée</string>
+   </property>
+  </action>
+  <action name="actioncontenu_de_dictionnaire_livre">
+   <property name="text">
+    <string>contenu de dictionnaire livre </string>
+   </property>
+  </action>
+  <action name="actionrecherche_par_r_ference">
+   <property name="text">
+    <string>recherche par réference</string>
+   </property>
+  </action>
+  <action name="actionrecherche_par_titre">
+   <property name="text">
+    <string>recherche par titre </string>
+   </property>
+  </action>
+  <action name="actionrecherhce_livre_par_ann_e_dition_donn_e">
+   <property name="text">
+    <string>recherhce livre par année édition donnée</string>
+   </property>
+  </action>
+  <action name="actionrecherche_livre_d_un_auteur_donn">
+   <property name="text">
+    <string>recherche livre d'un auteur donné</string>
+   </property>
+  </action>
+  <action name="actionrecherche_et_affichage_des_livres_par_ordre_alphab_tique">
+   <property name="text">
+    <string>recherche et affichage des livres par ordre alphabétique</string>
+   </property>
+  </action>
+  <action name="actionajouter_un_nouvel_emprunt">
+   <property name="text">
+    <string>ajouter un nouvel emprunt</string>
+   </property>
+  </action>
+  <action name="actionretour_d_un_emprunt">
+   <property name="text">
+    <string>retour d'un emprunt</string>
+   </property>
+  </action>
+  <action name="actionsupprimer_d_un_emprunt">
+   <property name="text">
+    <string>supprimer d'un emprunt</string>
+   </property>
+  </action>
+  <action name="actiondate_emprunt">
+   <property name="text">
+    <string>date emprunt</string>
+   </property>
+  </action>
+  <action name="actiondate_retour">
+   <property name="text">
+    <string>date retour</string>
+   </property>
+  </action>
+  <action name="actionconteenu_de_dictionnaire_emprunt">
+   <property name="text">
+    <string>contenu de dictionnaire emprunt</string>
+   </property>
+  </action>
+  <action name="actionrecherche_emprunts_par_livre">
+   <property name="text">
+    <string>recherche_emprunts_par_livre</string>
+   </property>
+  </action>
+  <action name="actionrecherche_emprunts_par_etudiant">
+   <property name="text">
+    <string>recherche_emprunts_par_etudiant</string>
+   </property>
+  </action>
+  <action name="actionrecherche_livre_emprent_s_a_une_date_donn_e">
+   <property name="text">
+    <string>recherche livre emprentés a une date donnée</string>
+   </property>
+  </action>
+  <action name="actionrecherche_livre_retourn_s_a_une_date_donn_e">
+   <property name="text">
+    <string>recherche livre retournés a une date donnée</string>
+   </property>
+  </action>
+  <action name="actionrecherche_livre_emprent_s_a_entre_deux_date_donn_e">
+   <property name="text">
+    <string>recherche livre emprentés a entre deux dates données</string>
+   </property>
+  </action>
+  <action name="actionrecherche_livre_retourn_s_entre_deux_dates_donn_es">
+   <property name="text">
+    <string>recherche livre retournés entre deux dates données</string>
+   </property>
+  </action>
+  <action name="actionenragistrement">
+   <property name="text">
+    <string>enragistrement</string>
+   </property>
+  </action>
+  <action name="actionrecup_raytion">
+   <property name="text">
+    <string>recupération</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
