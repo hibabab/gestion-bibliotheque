@@ -31,17 +31,3 @@
 | Packaging       | PyInstaller          |
 
 
-```
-
-
-
----
-
-
-
-
----
-
-## Licence
-
-MIT © 2026 — BiblioDesk
